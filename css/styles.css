@@ -9,6 +9,7 @@ body
     font-family: 'Holtwood One SC' , sans-serif;
 }
 
+
 .text-logo
 {
     font-family: 'Holtwood One SC' , sans-serif;
@@ -50,4 +51,46 @@ body
     font-size: 20px;
     border-radius: 3px;
 
+}
+
+.caption > h4
+{
+    color: #e7480f;
+    font-size: 18px;
+}
+
+.nav-pills>li.active>a,  .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover
+{
+    background-color: #e7480f;
+}
+
+.nav>li>a:focus, .nav>li>a:hover
+{
+    color: #e7480f;
+    background-color: #eee;
+}
+
+.nav>li>a
+{
+    color: #eee;
+    font-size: 18px;
+    text-shadow: 2px 2px #333;
+}
+
+.btn-order
+{
+    font-family: 'Holtwood One SC';
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #e7480f;
+    text-decoration: none;
+    text-shadow: 2px 2px #333;
+}
+
+.btn-order:hover, .btn-order:focus
+{
+    color : #fff;
+    background-color: #c13c0d;
 }
