@@ -9,6 +9,12 @@ body
     font-family: 'Holtwood One SC' , sans-serif;
 }
 
+.admin
+{
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+}
 
 .text-logo
 {
@@ -93,4 +99,9 @@ body
 {
     color : #fff;
     background-color: #c13c0d;
+}
+
+.help-inline
+{
+    color:red;
 }
