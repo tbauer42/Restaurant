@@ -110,7 +110,7 @@
                     
                     <h1 > <strong> Ajouter  un item </strong></h1>
                     <br>
-                    <form class="form" action="insert.php" method="post" role="form" enctype="multipart/form-data">
+                    <form class="form" action="insert.php" method="post" role="form" enctype="multipart/form-data"> <!--enctype pour interraction avec image dans le formulaire -->
                         <div class="form-group">
                             <label for="name">Nom:</label>
                             <input type="text" class="form-control" id="name" name="name" placeholder="Nom" value="<?php echo $name; ?>">
